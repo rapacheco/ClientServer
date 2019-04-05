@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="paneName" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="221.0" prefWidth="302.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientController">
+   <children>
+      <TextField fx:id="txtName" layoutX="77.0" layoutY="98.0" onKeyReleased="#handleNameEnter" />
+      <Button fx:id="btnName" layoutX="129.0" layoutY="160.0" mnemonicParsing="false" onAction="#handleNameClick" text="Enter" />
+      <Label layoutX="107.0" layoutY="65.0" text="Enter your name" />
+      <Label fx:id="lblName" alignment="CENTER" contentDisplay="CENTER" layoutY="129.0" prefHeight="17.0" prefWidth="302.0" style="-fx-text-fill: red;" />
+   </children>
+</Pane>
